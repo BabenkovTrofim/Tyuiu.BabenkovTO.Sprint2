@@ -8,8 +8,8 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task2.V29.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 14;
-            int y = 14;
+            int x = 9;
+            int y = 6;
             bool wait = false;
             bool res = ds.CheckDotInShadedArea(x, y);
             Assert.AreEqual(wait, res);

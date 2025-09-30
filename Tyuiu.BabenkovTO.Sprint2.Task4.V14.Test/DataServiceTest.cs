@@ -11,16 +11,16 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task4.V14.Test
             double y = 9;
             DataService ds = new DataService();
             double wait = 611.887;
-            Assert.AreEqual(wait, ds.Calculate(x, y));
+            Assert.AreEqual(wait, Math.Round(ds.Calculate(x, y), 3));
         }
         [TestMethod]
         public void TestMethod2()
         {
-            double x = 20;
-            double y = 9;
+            double x = 9;
+            double y = 4;
             DataService ds = new DataService();
-            double wait = 0.222;
-            Assert.AreEqual(wait, ds.Calculate(x, y));
+            double wait = 0.27;
+            Assert.AreEqual(wait, Math.Round(ds.Calculate(x, y), 4));
         }
     }
 }

@@ -21,8 +21,6 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task4.V14.Test
             DataService ds = new DataService();
             double wait = 0.272;
             double res = ds.Calculate(x, y);
-            if (res == 0.27)
-                res += 0.002;
             Assert.AreEqual(wait, res);
         }
     }

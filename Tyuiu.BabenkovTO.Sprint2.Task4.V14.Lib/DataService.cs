@@ -5,7 +5,7 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task4.V14.Lib
     {
         public double Calculate(double x, double y)
         {
-            double z = (x * 3 < Math.Sqrt(y) + 20) ? Math.Pow((2 + 1 / (x * x)), y) : ((y * y) - Math.Cos(x * x) + 10) / ((x * x) - Math.Sin(y * y) + 12);
+            double z = (x * 3 < Math.Sqrt(y) + 20) ? Math.Pow((2 + 1 / (x * x)), y) : ((y * y) - Math.Pow((Math.Cos(x)), 2) + 10) / ((x * x) - Math.Pow((Math.Sin(y)), 2) + 12);
             return Math.Round(z, 3);
         }
     }

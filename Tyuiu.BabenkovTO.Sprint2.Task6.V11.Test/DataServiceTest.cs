@@ -11,7 +11,7 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Test
             int g = 2007;
             int m = 6;
             int n = 13;
-            string wait = "2007 Июнь 14";
+            string wait = "14.06.2007";
             Assert.AreEqual(wait, ds.FindDateOfNextDay(g, m, n));
             Assert.ThrowsException<ArgumentException>(() => ds.FindDateOfNextDay(g, 20, 0));
             Assert.ThrowsException<ArgumentException>(() => ds.FindDateOfNextDay(g, -10, 32));

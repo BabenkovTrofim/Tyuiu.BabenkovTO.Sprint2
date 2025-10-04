@@ -13,9 +13,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.02.{g}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
-                        date = $"{n+1}.01.{g}";
+                        date = $"{n + 1}.01.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.01.{g}";
                     }
                     break;
                 case 2:
@@ -23,9 +27,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.03.{g}";
                     }
-                    else if (n >= 1 & n <= 27)
+                    if (n >= 9 & n <= 27)
                     {
                         date = $"{n + 1}.02.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.02.{g}";
                     }
                     break;
                 case 3:
@@ -33,9 +41,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.04.{g}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
                         date = $"{n + 1}.03.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.03.{g}";
                     }
                     break;
                 case 4:
@@ -43,9 +55,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.05.{g}";
                     }
-                    else if (n >= 1 & n <= 29)
+                    if (n >= 9 & n <= 29)
                     {
                         date = $"{n + 1}.04.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.04.{g}";
                     }
                     break;
                 case 5:
@@ -53,9 +69,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.06.{g}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
                         date = $"{n + 1}.05.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.05.{g}";
                     }
                     break;
                 case 6:
@@ -63,9 +83,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.07.{g}";
                     }
-                    else if (n >= 1 & n <= 29)
+                    if (n >= 9 & n <= 29)
                     {
                         date = $"{n + 1}.06.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.06.{g}";
                     }
                     break;
                 case 7:
@@ -73,9 +97,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.08.{g}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
                         date = $"{n + 1}.07.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.07.{g}";
                     }
                     break;
                 case 8:
@@ -83,9 +111,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.09.{g}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
                         date = $"{n + 1}.08.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.08.{g}";
                     }
                     break;
                 case 9:
@@ -93,9 +125,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.10.{g}";
                     }
-                    else if (n >= 1 & n <= 29)
+                    if (n >= 9 & n <= 29)
                     {
                         date = $"{n + 1}.09.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.09.{g}";
                     }
                     break;
                 case 10:
@@ -103,9 +139,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.11.{g}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
                         date = $"{n + 1}.10.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.10.{g}";
                     }
                     break;
                 case 11:
@@ -113,9 +153,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.12.{g}";
                     }
-                    else if (n >= 1 & n <= 29)
+                    if (n >= 9 & n <= 29)
                     {
                         date = $"{n + 1}.11.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.11.{g}";
                     }
                     break;
                 case 12:
@@ -123,9 +167,13 @@ namespace Tyuiu.BabenkovTO.Sprint2.Task6.V11.Lib
                     {
                         date = $"01.01.{g+1}";
                     }
-                    else if (n >= 1 & n <= 30)
+                    if (n >= 9 & n <= 30)
                     {
                         date = $"{n + 1}.12.{g}";
+                    }
+                    if (n >= 1 & n <= 8)
+                    {
+                        date = $"0{n + 1}.10.{g}";
                     }
                     break;
                 default: throw new ArgumentException($"Ошибка! 1 <= m <= 12, 1 <= n <= 31. \n\rТекущие значения: m = {m} n = {n}");
